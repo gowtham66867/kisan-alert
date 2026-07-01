@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/kisan-alert/static/css/main.2aa95758.css",
-    "main.js": "/kisan-alert/static/js/main.5b2d29e1.js",
+    "main.js": "/kisan-alert/static/js/main.9d4669fc.js",
     "index.html": "/kisan-alert/index.html",
     "main.2aa95758.css.map": "/kisan-alert/static/css/main.2aa95758.css.map",
-    "main.5b2d29e1.js.map": "/kisan-alert/static/js/main.5b2d29e1.js.map"
+    "main.9d4669fc.js.map": "/kisan-alert/static/js/main.9d4669fc.js.map"
   },
   "entrypoints": [
     "static/css/main.2aa95758.css",
-    "static/js/main.5b2d29e1.js"
+    "static/js/main.9d4669fc.js"
   ]
 }
