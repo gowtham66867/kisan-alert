@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/kisan-alert/static/css/main.37038c60.css",
-    "main.js": "/kisan-alert/static/js/main.856dbf3b.js",
-    "static/media/logo.svg": "/kisan-alert/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/kisan-alert/static/css/main.2aa95758.css",
+    "main.js": "/kisan-alert/static/js/main.5b2d29e1.js",
     "index.html": "/kisan-alert/index.html",
-    "main.37038c60.css.map": "/kisan-alert/static/css/main.37038c60.css.map",
-    "main.856dbf3b.js.map": "/kisan-alert/static/js/main.856dbf3b.js.map"
+    "main.2aa95758.css.map": "/kisan-alert/static/css/main.2aa95758.css.map",
+    "main.5b2d29e1.js.map": "/kisan-alert/static/js/main.5b2d29e1.js.map"
   },
   "entrypoints": [
-    "static/css/main.37038c60.css",
-    "static/js/main.856dbf3b.js"
+    "static/css/main.2aa95758.css",
+    "static/js/main.5b2d29e1.js"
   ]
 }
