@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 from services.db import init_db
-from routers import queries, alerts, admin
+from routers import queries, alerts, admin, weather
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 logger = logging.getLogger(__name__)
@@ -54,6 +54,7 @@ def startup():
 app.include_router(queries.router)
 app.include_router(alerts.router)
 app.include_router(admin.router)
+app.include_router(weather.router)
 
 
 @app.get("/health")
@@ -66,5 +67,5 @@ def root():
     return {
         "message": "Kisan Alert — Smart Water, Crop & Advisory System",
         "docs": "/docs",
-        "endpoints": ["/query/text", "/query/photo", "/alerts/generate", "/alerts/recent"],
+        "endpoints": ["/query/text", "/query/photo", "/query/stream", "/alerts/generate", "/alerts/recent", "/weather/Guntur"],
     }

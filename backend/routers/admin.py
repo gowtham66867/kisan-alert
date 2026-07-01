@@ -28,6 +28,9 @@ def seed_data(x_admin_secret: str = Header(default="")):
     """Insert pre-computed seed queries without calling Gemini."""
     if os.environ.get("ENABLE_ADMIN", "false").lower() != "true":
         raise HTTPException(status_code=404, detail="Not found")
+    expected = os.environ.get("ADMIN_SECRET", "kisan-admin-2024")
+    if x_admin_secret != expected:
+        raise HTTPException(status_code=403, detail="Invalid admin secret")
     inserted = 0
     for q in SEED_QUERIES:
         try:
